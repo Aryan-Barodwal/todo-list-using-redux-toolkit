@@ -7,10 +7,13 @@ const Navbar = () => {
             <div className='nav flex justify-around items-center p-2 '>
                 <img src={logo} alt="" />
                 <ul className='flex justify-around gap-3 cursor-pointer'>
-                    <li className='hover:border-b-2 hover:border-zinc-50 h-[5vh]'>Home</li>
-                    <li className='hover:border-b-2 hover:border-zinc-50 h-[5vh]'>Contact</li>
-                    <li className='hover:border-b-2 hover:border-zinc-50 h-[5vh]'>Help</li>   
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>Help</li>
                 </ul>
+                {/* className='hover:border-b-2 hover:border-zinc-50 h-[5vh]'
+                className='hover:border-b-2 hover:border-zinc-50 h-[5vh]
+                className='hover:border-b-2 hover:border-zinc-50 h-[5vh]' */}
             </div>
         </div>
     )
